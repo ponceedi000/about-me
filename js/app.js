@@ -10,7 +10,7 @@ let answerOne = prompt('Do I like olives on my pizza?? Answer \'yes\' or \'no\''
 
 //console.log('user entered to question 1: ' + answerOne);
 
-// ask 
+// create response to answers
 if (answerOne === 'yes' || answerOne === 'y') {
     alert('You are correct. I love olives on my pizza!.');
 } else if (answerOne === 'no' || answerOne === 'n') {
@@ -24,11 +24,11 @@ let answerTwo = prompt('Is my favorite color blue? Answer \'yes\' or \'no\'').to
 
 //console.log('user entered to question 2: ' + answerTwo);
 
-// ask 
+// create response to answers
 if (answerTwo === 'yes' || answerTwo === 'y') {
     alert('Nope! Red is my favorite color!');
 } else if (answerTwo === 'no' || answerTwo === 'n') {
-    alert('You are correct. I like Strawberries.')
+    alert('You are correct. My favorite color is actually red.')
 } else {
     alert('Sorry, answers need to be yes or no.') 
 }
@@ -38,11 +38,11 @@ let answerThree = prompt('Have I ever been to Paris? Answer \'yes\' or \'no\'').
 
 //console.log('user entered to question 3: ' + answerThree);
 
-// ask 
+// create response to answers
 if (answerThree === 'yes' || answerThree === 'y') {
     alert('Nope, but I wish!');
 } else if (answerThree === 'no' || answerThree === 'n') {
-    alert('You are correct. I would love to visit one day!')
+    alert('Correct. I would love to visit one day however!')
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
@@ -53,11 +53,11 @@ let answerFour = prompt('Do I have any tattoos? Answer \'yes\' or \'no\'').toLow
 
 //console.log('user entered to question 4: ' + answerFour);
 
-// ask 
+// create response to answers
 if (answerFour === 'yes' || answerFour=== 'y') {
     alert('Correct! I have 3 so far!');
 } else if (answerFour === 'no' || answerFour === 'n') {
-    alert('Incorrect, I have 3 at the moment.')
+    alert('Incorrect, I actually have 3 at the moment.')
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
@@ -67,12 +67,13 @@ let answerFive = prompt('Am I muscian? Answer \'yes\' or \'no\'').toLowerCase();
 
 //console.log('user entered to question 5: ' + answerFive);
 
-// ask 
+// create response to answers
 if (answerFive === 'yes' || answerFive === 'y') {
     alert('You are correct. I play 5 different instruments!');
 } else if (answerFive === 'no' || answerFive === 'n') {
-    alert('Sorry, you are wrong.')
+    alert('Sorry, I\'m definitely a musician.')
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
 
+ alert('Thank you for playing, ' + username + '! Make sure to visit my webpage to learn more about me :)')
