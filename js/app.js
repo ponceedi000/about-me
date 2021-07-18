@@ -77,3 +77,49 @@ if (answerFive === 'yes' || answerFive === 'y') {
 }
 
  alert('Thank you for playing, ' + username + '! Make sure to visit my webpage to learn more about me :)')
+
+
+// SUDO CODE
+// comments that describe what I need to do.
+// step by step
+
+// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+//Indicates through an alert if the guess is “too high” or “too low”.
+//It should give the user exactly four opportunities to get the correct answer.
+//After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+
+// Add 6th question
+// respond if too high
+// respond if too low
+// respond if correct and guesses remaining
+// respsond if no correct and no guesses remaining
+
+
+
+let myAge = 23
+let attemptsRemaining = 4;
+let userResponse = null
+while (userResponse !== myAge) {
+    userResponse = +prompt('How old am I? Please enter a numerical value only');
+    console.log(`Guess of my age: ${userResponse}`);
+    if (userResponse === myAge) {
+        alert('You are correct. Nice job.');
+        // break;
+    }
+
+    if (userResponse < myAge) {
+        alert(`Too low! you have ${attemptsRemaining} attempts remaining.`);
+    }
+
+    if (userResponse > myAge) {
+        alert(`Too high! you have ${attemptsRemaining} attempts remaining.`);
+    }
+    attemptsRemaining--;
+    // if(attemptsRemaining === 0 && !myAge) {
+    // alert('Sorry, the correct answer is ' + myAge)
+    // } else if(userResponse === myAge)
+    // console.log('You are right!')
+    console.log('Attempts remaining', attemptsRemaining)
+}
+
+
