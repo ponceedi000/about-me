@@ -2,7 +2,7 @@
 
 ## About Me
 
-I created an "About Me" webpage that showcases who I am as a person and a Software Developer. The webpage opens up with a prompt that takes user input followed a quiz that also takes user input utilizing JavaScript. The webpage also provides responses to user input, accomplished with conditional statements.
+I created an "About Me" webpage that showcases who I am as a person and a Software Developer. The webpage opens up with a prompt that takes user input followed a quiz that also takes user input utilizing JavaScript. The webpage also provides responses to user input, accomplished with conditional statements.  This project now also includes for loops and while loops intergrated within the quiz. It also has a scoring system at the end of the quizz to let the user know how they did.
 
 ### Author: Ediberto Ponce
 
