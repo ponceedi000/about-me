@@ -12,7 +12,8 @@ let answerOne = prompt('Do I like olives on my pizza?? Answer \'yes\' or \'no\''
 
 // create response to answers
 if (answerOne === 'yes' || answerOne === 'y') {
-    alert('You are correct. I love olives on my pizza!.' + score++);
+    alert('You are correct. I love olives on my pizza!.');
+    score++;
 } else if (answerOne === 'no' || answerOne === 'n') {
     alert('Sorry, you are wrong.')
 } else {
@@ -28,7 +29,8 @@ let answerTwo = prompt('Is my favorite color blue? Answer \'yes\' or \'no\'').to
 if (answerTwo === 'yes' || answerTwo === 'y') {
     alert('Nope! Red is my favorite color!');
 } else if (answerTwo === 'no' || answerTwo === 'n') {
-    alert('You are correct. My favorite color is actually red.' + score++)
+    alert('You are correct. My favorite color is actually red.')
+    score++;
 } else {
     alert('Sorry, answers need to be yes or no.') 
 }
@@ -42,7 +44,8 @@ let answerThree = prompt('Have I ever been to Paris? Answer \'yes\' or \'no\'').
 if (answerThree === 'yes' || answerThree === 'y') {
     alert('Nope, but I wish!');
 } else if (answerThree === 'no' || answerThree === 'n') {
-    alert('Correct. I would love to visit one day however!' + score++)
+    alert('Correct. I would love to visit one day however!')
+   score++;
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
@@ -55,7 +58,8 @@ let answerFour = prompt('Do I have any tattoos? Answer \'yes\' or \'no\'').toLow
 
 // create response to answers
 if (answerFour === 'yes' || answerFour=== 'y') {
-    alert('Correct! I have 3 so far!' + score++);
+    alert('Correct! I have 3 so far!');
+    score++;
 } else if (answerFour === 'no' || answerFour === 'n') {
     alert('Incorrect, I actually have 3 at the moment.')
 } else {
@@ -69,7 +73,8 @@ let answerFive = prompt('Am I muscian? Answer \'yes\' or \'no\'').toLowerCase();
 
 // create response to answers
 if (answerFive === 'yes' || answerFive === 'y') {
-    alert('You are correct. I play 5 different instruments!' + score++);
+    alert('You are correct. I play 5 different instruments!');
+    score++;
 } else if (answerFive === 'no' || answerFive === 'n') {
     alert('Sorry, I\'m definitely a musician.')
 } else {
@@ -96,7 +101,8 @@ while (userResponse !== myAge) {
     userResponse = +prompt('How old am I? Please enter a numerical value only');
     console.log(`Guess of my age: ${userResponse}`);
     if (userResponse === myAge) {
-        alert('You are correct. Nice job.' + score++);
+        alert('You are correct. Nice job.');
+        score++;
         break;
     }
 
@@ -109,10 +115,10 @@ while (userResponse !== myAge) {
     }
     attemptsRemaining--;
     if(attemptsRemaining === 0 && userResponse !== myAge) {
-    alert('Sorry, the correct answer is ' + myAge)
-    } else if(userResponse === myAge)
-    alert('You are right!' + score++)
-    console.log('Attempts remaining', attemptsRemaining)
+    alert('Sorry, the correct answer is ' + myAge);
+    break;
+    }
+    console.log('Attempts remaining', attemptsRemaining);
 }
 
 
@@ -122,13 +128,15 @@ let attempts = 5;
 let guessedCorrectly = false;
 
 while (attempts) {
-    if (!attempts) {
-        alert('You are out of attempts');
-        break;
-    }
     for (let i = 0; i < myFavoriteAnimals.length; i++) {
         if (userInput === myFavoriteAnimals[i]) {
-            alert('Nice! You got it!' + score++)
+            alert('Nice! You got it!');
+            guessedCorrectly = true;
+            score++;
+            break;
+        } if (!attempts) {
+            alert('You are out of attempts');
+            break;
         }
     }
 if (guessedCorrectly) {
@@ -139,4 +147,5 @@ alert(`Please try again, you have ${attempts} remaining`);
 userInput = prompt('What is my favorite animal?');
 attempts--;
 }
-alert(`Good job, you got ${score} out of 7!`)
+alert(`Your possible answers were ${myFavoriteAnimals}`)
+alert(`Good job, you got ${score} out of 7!`) 
