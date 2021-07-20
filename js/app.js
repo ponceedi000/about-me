@@ -14,6 +14,7 @@ let answerOne = prompt('Do I like olives on my pizza?? Answer \'yes\' or \'no\''
 if (answerOne === 'yes' || answerOne === 'y') {
     alert('You are correct. I love olives on my pizza!.');
     score++;
+ 
 } else if (answerOne === 'no' || answerOne === 'n') {
     alert('Sorry, you are wrong.')
 } else {
@@ -31,6 +32,7 @@ if (answerTwo === 'yes' || answerTwo === 'y') {
 } else if (answerTwo === 'no' || answerTwo === 'n') {
     alert('You are correct. My favorite color is actually red.')
     score++;
+
 } else {
     alert('Sorry, answers need to be yes or no.') 
 }
@@ -46,6 +48,7 @@ if (answerThree === 'yes' || answerThree === 'y') {
 } else if (answerThree === 'no' || answerThree === 'n') {
     alert('Correct. I would love to visit one day however!')
    score++;
+
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
@@ -75,6 +78,7 @@ let answerFive = prompt('Am I muscian? Answer \'yes\' or \'no\'').toLowerCase();
 if (answerFive === 'yes' || answerFive === 'y') {
     alert('You are correct. I play 5 different instruments!');
     score++;
+
 } else if (answerFive === 'no' || answerFive === 'n') {
     alert('Sorry, I\'m definitely a musician.')
 } else {
@@ -103,6 +107,7 @@ while (userResponse !== myAge) {
     if (userResponse === myAge) {
         alert('You are correct. Nice job.');
         score++;
+
         break;
     }
 
@@ -119,6 +124,7 @@ while (userResponse !== myAge) {
     break;
     }
     console.log('Attempts remaining', attemptsRemaining);
+
 }
 
 
@@ -137,6 +143,7 @@ while (attempts) {
         } if (!attempts) {
             alert('You are out of attempts');
             break;
+
         }
     }
 if (guessedCorrectly) {
