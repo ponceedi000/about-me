@@ -71,6 +71,7 @@ if (answerThree === 'yes' || answerThree === 'y') {
 }
 questionThree();
 
+function questionFour(){
 // ask question 4
 let answerFour = prompt('Do I have any tattoos? Answer \'yes\' or \'no\'').toLowerCase();
 
@@ -85,7 +86,9 @@ if (answerFour === 'yes' || answerFour=== 'y') {
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
+}
 
+questionFour();
 // ask question 5
 let answerFive = prompt('Am I muscian? Answer \'yes\' or \'no\'').toLowerCase();
 
