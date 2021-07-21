@@ -31,6 +31,8 @@ if (answerOne === 'yes' || answerOne === 'y') {
 
 questionOne();
 // ask question 2
+
+function questionTwo(){
 let answerTwo = prompt('Is my favorite color blue? Answer \'yes\' or \'no\'').toLowerCase();
 
 //console.log('user entered to question 2: ' + answerTwo);
@@ -45,6 +47,9 @@ if (answerTwo === 'yes' || answerTwo === 'y') {
 } else {
     alert('Sorry, answers need to be yes or no.') 
 }
+
+}
+questionTwo ();
 
 // ask question 3
 let answerThree = prompt('Have I ever been to Paris? Answer \'yes\' or \'no\'').toLowerCase();
