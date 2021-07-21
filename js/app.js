@@ -153,6 +153,7 @@ while (userResponse !== myAge) {
 }
 questionSix();
 
+function questionSeven(){
 let myFavoriteAnimals = ['wolf', 'tiger', 'gorilla', 'eagle', 'bear' ]
 let userInput = prompt ('what is my favorite animal?');
 let attempts = 5;
@@ -179,5 +180,8 @@ alert(`Please try again, you have ${attempts} remaining`);
 userInput = prompt('What is my favorite animal?');
 attempts--;
 }
+}
+questionSeven();
+
 alert(`Your possible answers were ${myFavoriteAnimals}`)
 alert(`Good job, you got ${score} out of 7!`) 
