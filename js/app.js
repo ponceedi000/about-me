@@ -3,7 +3,12 @@
 // get the user's name so we can greet them
 let username = prompt('What\'s your name?');
 // greet the user
+function firstGreet(){
+
 alert("Hello " + username);
+
+}
+firstGreet();
 
 // ask question 1
 let answerOne = prompt('Do I like olives on my pizza?? Answer \'yes\' or \'no\'').toLowerCase();
