@@ -90,6 +90,8 @@ if (answerFour === 'yes' || answerFour=== 'y') {
 
 questionFour();
 // ask question 5
+
+function questionFive(){
 let answerFive = prompt('Am I muscian? Answer \'yes\' or \'no\'').toLowerCase();
 
 //console.log('user entered to question 5: ' + answerFive);
@@ -104,7 +106,9 @@ if (answerFive === 'yes' || answerFive === 'y') {
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
+}
 
+questionFive();
 // Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // Indicates through an alert if the guess is “too high” or “too low”.
 // It should give the user exactly four opportunities to get the correct answer.
