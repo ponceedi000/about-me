@@ -11,6 +11,8 @@ alert("Hello " + username);
 firstGreet();
 
 // ask question 1
+
+function questionOne(){
 let answerOne = prompt('Do I like olives on my pizza?? Answer \'yes\' or \'no\'').toLowerCase();
 
 //console.log('user entered to question 1: ' + answerOne);
@@ -25,7 +27,9 @@ if (answerOne === 'yes' || answerOne === 'y') {
 } else {
     alert('Sorry, answers need to be yes or no.')
 }
+}
 
+questionOne();
 // ask question 2
 let answerTwo = prompt('Is my favorite color blue? Answer \'yes\' or \'no\'').toLowerCase();
 
