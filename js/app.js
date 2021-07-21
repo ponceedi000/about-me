@@ -108,7 +108,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
 }
 }
 
-questionFive();
+questionFive(); 
 // Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // Indicates through an alert if the guess is “too high” or “too low”.
 // It should give the user exactly four opportunities to get the correct answer.
@@ -121,7 +121,7 @@ questionFive();
 // respsond if no correct and no guesses remaining
 
 
-
+function questionSix(){
 let myAge = 23
 let attemptsRemaining = 4;
 let userResponse = null
@@ -150,7 +150,8 @@ while (userResponse !== myAge) {
     console.log('Attempts remaining', attemptsRemaining);
 
 }
-
+}
+questionSix();
 
 let myFavoriteAnimals = ['wolf', 'tiger', 'gorilla', 'eagle', 'bear' ]
 let userInput = prompt ('what is my favorite animal?');
