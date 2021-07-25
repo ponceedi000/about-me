@@ -1,21 +1,29 @@
-nav {
-    height: 25px;
-    border-color: red;
-    border-style: solid;
-    border-width: 1px;
-    background-color: gray;
-    padding-top: 5px;
-    padding-left: 5px;
-    margin: 0 auto;
-    width: 1000px;
-
+.navUl {
+list-style-type: none;
+margin: 0 auto;
+padding: 0;
+overflow: hidden;
+background-color: red;
 }
-/* Used code examples from https://www.w3schools.com/howto/howto_css_parallax.asp */
+.navLi {
+    float: right;
+}
+.navLi a {
+display: block;
+color: white;
+text-align:left;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navLi a:hover {
+    background-color: grey;
+}
+
 body  {
     background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80");
     background-attachment: fixed;
     background-position: center;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 main {
@@ -82,5 +90,7 @@ ul, li {
     padding-left: 5px;
     margin: 0 auto;
     width: 1000px;
+    color: black;
+    text-align: center;
 
 }

@@ -12,6 +12,7 @@ I created an "About Me" webpage that showcases who I am as a person and a Softwa
 ### Links and Resources
 * [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
 * [Git Cheat Sheet](https://www.freecodecamp.org/news/git-cheat-sheet/)
+* [CSS](https://www.w3schools.com/howto/howto_css_parallax.asp)
 ### Reflections and Comments
 * As I began to apply bits and pieces of HTML, CSS, and JS I found that I had to revaluate myself on multiple ocassions. I identified deficiencies and solved them by utilizing resources via open source. I found that this is how I learn best and it works 9/10
 * Initially, I also had some issues with how to utilze Git and Github, but I utilized tools and resources I had at my disposal to guide me through it. I now feel more confident in my abilities to work independently and to problem solve on my own. [freeCodeCamp](https://www.freecodecamp.org/), [MDN Web Docs](https://developer.mozilla.org/en-US/), and [W3 Schools](https://www.w3schools.com/html/) were great resources for me while building this project.
