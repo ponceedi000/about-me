@@ -147,4 +147,4 @@ function questionSeven(){
     alert(`Your possible answers were ${myFavoriteAnimals}`)
 alert(`Good job, you got ${score} out of 7!`) 
 }
-questionSeven();
+questionSeven(); 
